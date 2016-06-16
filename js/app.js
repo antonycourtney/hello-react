@@ -1,10 +1,8 @@
-'use strict';
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import HelloApp from './components/HelloApp.react'
 
-import React from 'react';
-import HelloApp from './components/HelloApp.react';
-
-
-React.render(
+ReactDOM.render(
   <HelloApp />,
   document.getElementById('app')
-);
+)
