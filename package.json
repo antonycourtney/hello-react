@@ -26,6 +26,7 @@
     "webpack": "^1.13.1"
   },
   "scripts": {
+    "clean":  "rm -rf build/*",
     "lint": "eslint ."
   },
   "standard": {
